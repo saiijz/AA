@@ -474,7 +474,7 @@ int AAtree::DeleteNode(int i) {
 		ReplaceDeletionNode(pRoot, pTemp->key, kTemp);
 	}
 
-	return 1;
+	return 2;
 }
 
 Node* AAtree::Get() {
